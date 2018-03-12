@@ -1,0 +1,167 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+.container.narrow {
+  padding: 50px 0;
+  margin: auto;
+  width: 1240px;
+  }
+
+.menu {
+  float: left;
+  background-color: #b3b3b3;
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+}
+
+.navigation > ul > li > a {
+  float: right;
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  padding-right: 30px;
+}
+
+.buttons > ul > li {
+  font-size: 10px;
+  float: right;
+  padding-right: 10px;
+}
+
+.buttons > ul > li:first-child {
+  padding-right: 0;
+}
+.buttons > ul > li > .test-it-out {
+  background-color: #99cc00;
+  width: 70px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  color: white;
+}
+
+.buttons > ul > li > .sign-in {
+  background-color: #66b3ff;
+  width: 50px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  color: white;
+}
+
+.container.full {
+  width: 1440px;
+  padding-top: 12px;
+  padding-bottom: 25px;
+  border-top: 1px solid #f2f2f2;
+  background-color: #ecf2f9;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.toolbar {
+  text-align: center;
+  padding: 0 70px;
+}
+
+.toolbar > li .social {
+  float: left;
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+  width: 25%;
+}
+
+.toolbar > li > .development {
+    float: left;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+    width: 25%;
+}
+.toolbar > li > .support {
+  float: left;
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+  width: 25%;
+}
+
+.toolbar > li > .scenes {
+  float: left;
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+  width: 25%;
+}
+
+a.social:hover {
+  color: #0059b3;
+}
+
+a.scenes:hover {
+  color: #0059b3;
+}
+
+a.development:hover {
+  color: #0059b3;
+}
+
+a.support:hover {
+  color: #0059b3;
+}
+
+.section {
+  text-align: center;
+  font-size: 30px;
+  padding: 40px 0 0 0;
+  color: #0099ff;
+}
+
+.section > p {
+  font-size: 17px;
+  padding: 10px 0 40px 0;
+  color: grey;
+}
+hr {
+  border-bottom: 1px solid grey;
+  width: 40px;
+}
+
+.intro {
+  background-image: url();
+  background-color: lightblue;
+  display: block;
+  height: 400px;
+  width: 900px;
+  margin-left: 270px;
+  margin-top: 40px;
+}
+
+.dp {
+  background-image: url();
+  background-color: black;
+  display: block;
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  margin-top: -40px;
+  margin-left: 685px;
+}
+
+.name > h3 {
+  padding-top: 8px;
+  text-align: center;
+  font-size: 20px;
+  color: #595959;
+}
+
+.name > p {
+  text-align: center;
+  font-size: 14px;
+  color: #bfbfbf;
+  padding-top: 8px;
+}
